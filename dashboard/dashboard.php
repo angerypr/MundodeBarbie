@@ -32,24 +32,34 @@ $salariosPorCategoria = [];
 $salariosPorPersonaje = [];
 
 foreach ($personajes as $p) {
+    // Ignorar personajes sin profesiones (posiblemente eliminados o vacíos)
+    if (empty($p['profesiones']) || !is_array($p['profesiones'])) {
+        continue;
+    }
+
     foreach ($p['profesiones'] as $prof) {
-        $profInfo = $mapaProfesiones[$prof['id']] ?? null;
-        if ($profInfo) {
-            // Categorías
-            $cat = $profInfo['categoria'];
-            $categorias[$cat] = ($categorias[$cat] ?? 0) + 1;
-
-            // Niveles
-            $niv = $prof['nivel'];
-            $niveles[$niv] = ($niveles[$niv] ?? 0) + 1;
-
-            // Salario por categoría
-            $salariosPorCategoria[$cat][] = $profInfo['salario'];
-
-            // Salario total por personaje
-            $salariosPorPersonaje[$p['nombre'] . ' ' . $p['apellido']] = 
-                ($salariosPorPersonaje[$p['nombre'] . ' ' . $p['apellido']] ?? 0) + $profInfo['salario'];
+        // Validar que el ID de la profesión exista en el mapa
+        if (!isset($mapaProfesiones[$prof['id']])) {
+            continue;
         }
+
+        $profInfo = $mapaProfesiones[$prof['id']];
+        
+        // Categorías
+        $cat = $profInfo['categoria'];
+        $categorias[$cat] = ($categorias[$cat] ?? 0) + 1;
+
+        // Niveles
+        $niv = $prof['nivel'];
+        $niveles[$niv] = ($niveles[$niv] ?? 0) + 1;
+
+        // Salario por categoría
+        $salariosPorCategoria[$cat][] = $profInfo['salario'];
+
+        // Salario total por personaje
+        $nombreCompleto = $p['nombre'] . ' ' . $p['apellido'];
+        $salariosPorPersonaje[$nombreCompleto] = 
+            ($salariosPorPersonaje[$nombreCompleto] ?? 0) + $profInfo['salario'];
     }
 }
 

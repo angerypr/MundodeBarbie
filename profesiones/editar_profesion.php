@@ -1,6 +1,5 @@
 <?php
 include('../libreria/plantilla.php');
-plantilla::aplicar();
 $archivoProfesiones = 'profesiones.json';
 $profesiones = file_exists($archivoProfesiones) ? json_decode(file_get_contents($archivoProfesiones), true) : [];
 
@@ -41,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = "Todos los campos son obligatorios y el salario debe ser mayor a 0.";
     }
 }
+plantilla::aplicar()
 ?>
 
 <!DOCTYPE html>

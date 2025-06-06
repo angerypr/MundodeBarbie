@@ -1,6 +1,5 @@
 <?php
 include('../libreria/plantilla.php');
-plantilla::aplicar();
 $archivoPersonajes = 'personajes.json';
 
 $personajes = file_exists($archivoPersonajes)
@@ -51,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = "Todos los campos son obligatorios, y debes incluir al menos una profesión y una URL de imagen.";
     }
 }
+plantilla::aplicar();
 ?>
 
 <!DOCTYPE html>

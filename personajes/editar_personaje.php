@@ -1,6 +1,5 @@
 <?php
 include('../libreria/plantilla.php');
-plantilla::aplicar();
 $archivoPersonajes = 'personajes.json';
 $archivoProfesiones = '../profesiones/profesiones.json';
 
@@ -59,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = "Todos los campos son obligatorios y debe seleccionarse al menos una profesión con nivel.";
     }
 }
+plantilla::aplicar();
 ?>
 
 <!DOCTYPE html>

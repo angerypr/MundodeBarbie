@@ -58,12 +58,62 @@
         "foto": "https:\/\/mediaproxy.tvtropes.org\/width\/1200\/https:\/\/static.tvtropes.org\/pmwiki\/pub\/images\/rsz_jennifer_lawrence_2014_1.png",
         "profesiones": [
             {
+                "id": "6840b85c5e10a",
+                "nivel": "Principiante"
+            },
+            {
                 "id": "68420a08ba78f",
                 "nivel": "Avanzado"
             },
             {
                 "id": "6842213a9d2f5",
                 "nivel": "Avanzado"
+            },
+            {
+                "id": "6843072f256f7",
+                "nivel": "Principiante"
+            }
+        ]
+    },
+    {
+        "id": "68430450bc50d",
+        "nombre": "Billie",
+        "apellido": "Eilish",
+        "fecha_nacimiento": "2001-12-18",
+        "foto": "https:\/\/encrypted-tbn2.gstatic.com\/images?q=tbn:ANd9GcTot_2nt2IYzwGxAWxfAjyKgVpySMWB5wqYRBrOUH_lxG0xBHO52fKJz584EXEZFjmGhfCz8n8s-yakaISpgJ2PkQ",
+        "profesiones": [
+            {
+                "id": "6840b2b06afb2",
+                "nivel": "Principiante"
+            },
+            {
+                "id": "68420a08ba78f",
+                "nivel": "Intermedio"
+            },
+            {
+                "id": "68421fda88b4f",
+                "nivel": "Avanzado"
+            }
+        ]
+    },
+    {
+        "id": "684308754f814",
+        "nombre": "Ariana",
+        "apellido": "Greenblatt",
+        "fecha_nacimiento": "2005-06-02",
+        "foto": "https:\/\/encrypted-tbn3.gstatic.com\/images?q=tbn:ANd9GcTwzQa8vVp6cVfXOK2BQHvN_E0R9qfLDOgRIUJKqghxAYSHEIRl3iAZWcDKLHKAf1QvBkMbdy8nWVpHHusD-BGUMLdzZ9sV7R5wnCuo8Q",
+        "profesiones": [
+            {
+                "id": "68420a08ba78f",
+                "nivel": "Avanzado"
+            },
+            {
+                "id": "68421fda88b4f",
+                "nivel": "Principiante"
+            },
+            {
+                "id": "6843082c12d67",
+                "nivel": "Intermedio"
             }
         ]
     }

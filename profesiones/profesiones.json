@@ -21,7 +21,7 @@
         "id": "684208a842756",
         "nombre": "CEO Mundo Barbie",
         "categoria": "Negocios",
-        "salario": 5000
+        "salario": 3000
     },
     {
         "id": "68420a08ba78f",
@@ -39,6 +39,18 @@
         "id": "6842213a9d2f5",
         "nombre": "Productora",
         "categoria": "Entretenimiento",
-        "salario": 1000
+        "salario": 1400
+    },
+    {
+        "id": "6843072f256f7",
+        "nombre": "Tenista",
+        "categoria": "Deporte",
+        "salario": 600
+    },
+    {
+        "id": "6843082c12d67",
+        "nombre": "Nadadora",
+        "categoria": "Deporte",
+        "salario": 850
     }
 ]
