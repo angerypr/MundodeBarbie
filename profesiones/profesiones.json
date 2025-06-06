@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6840b2b06afb2",
+        "nombre": "Maestra",
+        "categoria": "Educaci\u00f3n",
+        "salario": 600
+    },
+    {
+        "id": "6840b85c5e10a",
+        "nombre": "Doctora",
+        "categoria": "Salud",
+        "salario": 1000
+    },
+    {
+        "id": "6840b9787e818",
+        "nombre": "Programadora",
+        "categoria": "Tecnolog\u00eda",
+        "salario": 700
+    },
+    {
+        "id": "684208a842756",
+        "nombre": "CEO Mundo Barbie",
+        "categoria": "Negocios",
+        "salario": 5000
+    },
+    {
+        "id": "68420a08ba78f",
+        "nombre": "Actriz",
+        "categoria": "Entretenimiento",
+        "salario": 700
+    },
+    {
+        "id": "68421fda88b4f",
+        "nombre": "Cantante",
+        "categoria": "Entretenimiento",
+        "salario": 700
+    },
+    {
+        "id": "6842213a9d2f5",
+        "nombre": "Productora",
+        "categoria": "Entretenimiento",
+        "salario": 1000
+    }
+]

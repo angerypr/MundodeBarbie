@@ -1,0 +1,70 @@
+[
+    {
+        "id": "6841f476000b6",
+        "nombre": "Angery",
+        "apellido": "Payamps",
+        "fecha_nacimiento": "2005-09-16",
+        "foto": "https:\/\/www.format.com\/wp-content\/uploads\/game-developer-barbie-mattel-1-1.jpg",
+        "profesiones": [
+            {
+                "id": "6840b2b06afb2",
+                "nivel": "Principiante"
+            },
+            {
+                "id": "6840b9787e818",
+                "nivel": "Intermedio"
+            },
+            {
+                "id": "684208a842756",
+                "nivel": "Principiante"
+            }
+        ]
+    },
+    {
+        "id": "68420a330c6a3",
+        "nombre": "Bella",
+        "apellido": "Ramsey",
+        "fecha_nacimiento": "2003-09-25",
+        "foto": "https:\/\/assets.vogue.com\/photos\/67f7c95dcd8c5787bfe9f3a0\/4:3\/w_2560%2Cc_limit\/GettyImages-2207714945.jpg",
+        "profesiones": [
+            {
+                "id": "68420a08ba78f",
+                "nivel": "Avanzado"
+            }
+        ]
+    },
+    {
+        "id": "68421fded6ae3",
+        "nombre": "Isabela",
+        "apellido": "Merced",
+        "fecha_nacimiento": "2001-07-10",
+        "foto": "https:\/\/images.fandango.com\/ImageRenderer\/300\/0\/redesign\/static\/img\/default_poster.png\/0\/images\/masterrepository\/performer%20images\/780578\/IsabelaMoner-2018.jpg",
+        "profesiones": [
+            {
+                "id": "68420a08ba78f",
+                "nivel": "Avanzado"
+            },
+            {
+                "id": "68421fda88b4f",
+                "nivel": "Intermedio"
+            }
+        ]
+    },
+    {
+        "id": "6842215055703",
+        "nombre": "Jennifer",
+        "apellido": "Lawrence",
+        "fecha_nacimiento": "1990-08-15",
+        "foto": "https:\/\/mediaproxy.tvtropes.org\/width\/1200\/https:\/\/static.tvtropes.org\/pmwiki\/pub\/images\/rsz_jennifer_lawrence_2014_1.png",
+        "profesiones": [
+            {
+                "id": "68420a08ba78f",
+                "nivel": "Avanzado"
+            },
+            {
+                "id": "6842213a9d2f5",
+                "nivel": "Avanzado"
+            }
+        ]
+    }
+]
